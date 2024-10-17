@@ -1,9 +1,521 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "companies": [
+    {
+      "id": 1,
+      "companyName": "Tech Innovators Inc.",
+      "phone": "123-456-7890",
+      "logo": "https://salt.topdev.vn/UY6tiwFjJ0xb3JYwVGbqCAmX8CfH_5LwoUq-9fCXyCA/fit/384/1000/ce/1/aHR0cHM6Ly9hc3NldHMudG9wZGV2LnZuL2ltYWdlcy8yMDI0LzA1LzEwL1RvcERldi1Ub3BEZXYtVG9wRGV2LTgxZjM2NzdjZDYwZDJjYjllYjZkN2ZlZDZiN2Q1MjUxLTE2NTgxMTA5MDctMTY4NDIwMzc0OC0xNzE1MzMwOTE3LnBuZw",
+      "thumbnail": "https://salt.topdev.vn/CGisndjzNe-VxZNzyq9JJ6ZJxK8d7AC90MZ3HoSIWzA/fit/1920/1000/ce/1/aHR0cHM6Ly9hc3NldHMudG9wZGV2LnZuL2ltYWdlcy8yMDI0LzA1LzEwL1RvcERldi00MDI1MGM0YzVmYjI0OWY5MWE4ZDEyZmU2MGVlNjc5MC0xNzE1MzMwOTIzLmpwZw",
+      "email": "contact@techinnovators.com",
+      "password": "password123",
+      "token": "abc123token",
+      "address": "123 Innovation Drive, Tech City, TX 75001",
+      "workingTime": "Mon-Fri, 9am-6pm",
+      "website": "https://www.techinnovators.com",
+      "quantityPeople": 150,
+      "description": "A leading company in tech innovation.",
+      "detail": "Tech Innovators Inc. is dedicated to creating cutting-edge technology solutions for a wide range of industries. Founded in 2010, we have grown to become a significant player in the tech world, with a team of over 150 talented individuals. Our mission is to drive progress through innovative technology."
+    },
+    {
+      "id": 2,
+      "companyName": "Code Masters Ltd.",
+      "phone": "987-654-3210",
+      "logo": "https://salt.topdev.vn/a3lvmQAtWMbA5iiACmWqgP1Jy34rj4f-WvvLCD52ToI/fit/384/1000/ce/1/aHR0cHM6Ly9hc3NldHMudG9wZGV2LnZuL2ltYWdlcy8yMDIzLzA2LzI3L1RvcERldi1sb2dvLWtvLXRhZy1saW5lLTAxLTE2ODc4NTM1NzcucG5n",
+      "thumbnail": "https://salt.topdev.vn/7g05vhrjtcxln2WUPFs2Bc_t1FB_hNoHIhbARZRoT40/fit/1920/1000/ce/1/aHR0cHM6Ly9hc3NldHMudG9wZGV2LnZuL2ltYWdlcy8yMDIzLzA2LzI3L1RvcERldi0zOTMzZDQ3NGFhZjY3MWE1MDk4MzEzZTMwNjY5ZDA0NC0xNjg3ODUzNTc4LnBuZw",
+      "email": "hr@codemasters.com",
+      "password": "securePass456",
+      "token": "xyz789token",
+      "address": "456 Coding Lane, Developer Town, CA 90210",
+      "workingTime": "Mon-Fri, 8am-5pm",
+      "website": "https://www.codemasters.com",
+      "quantityPeople": 200,
+      "description": "Masters in the art of coding.",
+      "detail": "Code Masters Ltd. specializes in providing top-notch software development services. Established in 2015, our company prides itself on its highly skilled team of 200 developers who are passionate about coding and committed to delivering high-quality software solutions. Our projects span various industries, from finance to healthcare."
+    },
+    {
+      "id": 3,
+      "companyName": "Startup Hub",
+      "phone": "555-123-4567",
+      "logo": "https://salt.topdev.vn/Ru6dFW-fIBb_E1E7iYOlIs_JFcAHZuPA8s0qQ4rOIWM/fit/384/1000/ce/1/aHR0cHM6Ly9hc3NldHMudG9wZGV2LnZuL2ltYWdlcy8yMDIzLzA3LzI1L1RvcERldi1Mb2dvLUhOSy0tLVZOLS0tVnktSG8tVGh1eS0xNjkwMjUwNzY2LnBuZw",
+      "thumbnail": "https://salt.topdev.vn/b32n0RDzJinX8I99VfcNDcrKrnl4TC5Y4tPniNBl1Xo/fit/1920/1000/ce/1/aHR0cHM6Ly9hc3NldHMudG9wZGV2LnZuL2ltYWdlcy8yMDIzLzA3LzI1L1RvcERldi0wNWMzODFhMDg2ODhlMTczNTQ5YWRlZWYzMmIxM2IyMS0xNjkwMjUwNzY3LmpwZw",
+      "email": "info@startuphub.com",
+      "password": "startUp789",
+      "token": "start456token",
+      "address": "789 Entrepreneur Blvd, Startup City, NY 10001",
+      "workingTime": "Mon-Fri, 10am-7pm",
+      "website": "https://www.startuphub.com",
+      "quantityPeople": 50,
+      "description": "Nurturing the next generation of startups.",
+      "detail": "Startup Hub is a dynamic company that provides resources, mentorship, and support for emerging startups. Founded in 2018, we have become a cornerstone of the startup ecosystem, helping numerous startups succeed with our team of 50 dedicated professionals. Our services include business strategy, funding, and networking opportunities."
+    },
+    {
+      "email": "doanthanhlam@gmail.com",
+      "password": "doanthanhlam",
+      "companyName": "LG Việt Nam 2",
+      "phone": "0395544696",
+      "logo": "https://salt.topdev.vn/XQXyPahzAenpMYWH61bBFyKdRU0NEsMDwLkohaCPsrg/fit/384/1000/ce/1/aHR0cHM6Ly9hc3NldHMudG9wZGV2LnZuL2ltYWdlcy8yMDIyLzEwLzI0L1RvcERldi1DSFVCQkxvZ29EYXJrQmx1ZVJHQi0xNjY2NTgxMjg1LnBuZw",
+      "thumbnail": "https://salt.topdev.vn/r4AEN7Z5nzz-QOJR1hRsT3Gy0nK1-8kLtcQNenc63iI/fit/640/1000/ce/1/aHR0cHM6Ly9hc3NldHMudG9wZGV2LnZuL2ltYWdlcy8yMDI0LzAyLzE1L1RvcERldi1DaHViYi1MaWZlLS0tMjAyMy1BQUEtMTcwNzk4NzIzOS5qcGc",
+      "address": "Bình Định",
+      "workingTime": "Mon-Fri, 7am-6pm",
+      "website": "lgvietnam",
+      "quantityPeople": 234242,
+      "description": "Là Chuyên gia Chuyển đổi Kỹ thuật số",
+      "detail": "Là Chuyên gia Chuyển đổi Kỹ thuật số (DX) và Đối tác tăng trưởng kỹ thuật số, chúng tôi cống hiến các kỹ năng DX của mình để giúp các khách hàng lớn đạt được thành công. ",
+      "token": "779316rbML",
+      "id": 4
+    },
+    {
+      "email": "congty1@gmail.com",
+      "password": "Lam@31052004",
+      "companyName": "DaouKiwoom Innovation",
+      "phone": "09471856492",
+      "logo": "https://salt.topdev.vn/UE_TrS-CL1DQJFwLfvaDtIQ9uN4JohY_UUObUUekVeg/fit/384/1000/ce/1/aHR0cHM6Ly9hc3NldHMudG9wZGV2LnZuL2ltYWdlcy8yMDIxLzEwLzEzL1RvcERldi1hMmUwZTdlMTk4MmYzYzI1NzQ5MjAxZTNhNDY1ODNhZi0xNjM0MTA3NzIyLlBORw",
+      "thumbnail": "https://salt.topdev.vn/5WDPotjI3gSlHljNfbtxATlfvyXKyQomocRIy32MeG8/fit/1920/1000/ce/1/aHR0cHM6Ly9hc3NldHMudG9wZGV2LnZuL2ltYWdlcy8yMDIzLzAxLzAzL1RvcERldi1TY3JlZW5zaG90MjAyMy0wMS0wMzA4MjQwNS0xNjcyNzA5MTAzLnBuZw",
+      "address": "115 Bắc Từ Liêm",
+      "workingTime": "Mon-Fri, 7am-6pm",
+      "website": "DaouKiwoom.com",
+      "quantityPeople": 12313,
+      "description": "ICT and Finance Platform Leader",
+      "detail": "DaouKiwoom Group has been one of the leading companies in Korea's IT and financial services with the total revenue of 2.2billion USD, profit of 1 billion USD and more than 5,000 employees in 2020.\n\nWe started as the 1st generation IT ventures, DAOU Tech in 1986, and successfully expanded into finance industry in 2000 through Kiwoom securities, No.1 Securities company in Korea.\n\nSo now as a group with a good balance of IT and finance, it is operating in Korea, Japan, China, France, Indonesia and Vietnam.",
+      "token": "391201WEdM",
+      "id": 5
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "cities": [
+    {
+      "key": 1,
+      "value": "Hà Nội"
+    },
+    {
+      "key": 2,
+      "value": "TP. Hồ Chí Minh"
+    },
+    {
+      "key": 3,
+      "value": "Đà Nẵng"
+    },
+    {
+      "key": 4,
+      "value": "Cần Thơ"
+    },
+    {
+      "key": 5,
+      "value": "Hải Phòng"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "tags": [
+    {
+      "key": 1,
+      "value": "Javascript"
+    },
+    {
+      "key": 2,
+      "value": "Java"
+    },
+    {
+      "key": 3,
+      "value": "Python"
+    },
+    {
+      "key": 4,
+      "value": "C#"
+    },
+    {
+      "key": 5,
+      "value": "PHP"
+    },
+    {
+      "key": 6,
+      "value": "Ruby"
+    },
+    {
+      "key": 7,
+      "value": "C++"
+    },
+    {
+      "key": 8,
+      "value": "Go"
+    },
+    {
+      "key": 9,
+      "value": "Swift"
+    },
+    {
+      "key": 10,
+      "value": "Kotlin"
+    },
+    {
+      "key": 11,
+      "value": "React"
+    },
+    {
+      "key": 12,
+      "value": "Spring Boot"
+    },
+    {
+      "key": 13,
+      "value": "SQL"
+    },
+    {
+      "key": 14,
+      "value": "Docker"
+    },
+    {
+      "key": 15,
+      "value": "AWS"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "idCompany": 4,
+      "name": "Frontend Developer",
+      "tags": [
+        "Javascript",
+        "React",
+        "CSS"
+      ],
+      "salary": 2000,
+      "description": "Develop and maintain the frontend of our web applications using React.",
+      "status": true,
+      "city": [
+        "Hà Nội",
+        "TP. Hồ Chí Minh"
+      ],
+      "createAt": "01-04-2023 21:22:17"
+    },
+    {
+      "id": 2,
+      "idCompany": 4,
+      "name": "Backend Developer",
+      "tags": [
+        "Java",
+        "Spring Boot",
+        "SQL"
+      ],
+      "salary": 2500,
+      "description": "Design, implement, and maintain backend services using Java and Spring Boot.",
+      "status": true,
+      "city": [
+        "Đà Nẵng"
+      ],
+      "createAt": "02-04-2023 10:15:00"
+    },
+    {
+      "id": 3,
+      "idCompany": 4,
+      "name": "Full Stack Developer",
+      "tags": [
+        "Python",
+        "Django",
+        "React"
+      ],
+      "salary": 3000,
+      "description": "Work on both frontend and backend of our web applications using Django and React.",
+      "status": true,
+      "city": [
+        "Hà Nội",
+        "Cần Thơ"
+      ],
+      "createAt": "01-05-2023 08:00:00"
+    },
+    {
+      "id": 4,
+      "idCompany": 1,
+      "name": "Mobile Developer",
+      "tags": [
+        "Swift",
+        "Kotlin"
+      ],
+      "salary": 1700,
+      "description": "Develop and maintain mobile applications for both iOS and Android platforms.",
+      "status": false,
+      "city": [
+        "TP. Hồ Chí Minh"
+      ],
+      "createAt": "10-05-2023 15:45:30"
+    },
+    {
+      "id": 5,
+      "idCompany": 2,
+      "name": "DevOps Engineer",
+      "tags": [
+        "Docker",
+        "Kubernetes",
+        "AWS"
+      ],
+      "salary": 1900,
+      "description": "Manage and improve our infrastructure and deployment pipelines.",
+      "status": false,
+      "city": [
+        "Hải Phòng",
+        "Đà Nẵng"
+      ],
+      "createAt": "26-05-2023 09:30:10"
+    },
+    {
+      "name": "test1",
+      "tags": [
+        "Java",
+        "Javascript",
+        "Python",
+        "C#",
+        "PHP"
+      ],
+      "salary": 5000,
+      "description": "zsdccsd",
+      "city": [
+        "TP. Hồ Chí Minh",
+        "Đà Nẵng"
+      ],
+      "status": true,
+      "idCompany": 4,
+      "createAt": "18-06-2024 16:35:13",
+      "id": 6
+    },
+    {
+      "name": "test2",
+      "tags": [
+        "Docker",
+        "AWS",
+        "SQL",
+        "Spring Boot",
+        "React"
+      ],
+      "salary": 5000,
+      "description": "zsdccsd",
+      "city": [
+        "TP. Hồ Chí Minh",
+        "Đà Nẵng"
+      ],
+      "status": true,
+      "idCompany": 4,
+      "createAt": "18-06-2024 16:35:32",
+      "id": 7
+    },
+    {
+      "name": "IT Support",
+      "tags": [
+        "Python"
+      ],
+      "salary": 3435,
+      "description": "Usage of basic Tag, and it could be closable and customize close button by set closeIcon property, will display default close button when closeIcon is setting to true. Closable Tag supports onClose events.",
+      "city": [
+        "Đà Nẵng",
+        "Cần Thơ"
+      ],
+      "status": true,
+      "idCompany": 4,
+      "createAt": "19-06-2024 14:53:43",
+      "id": 9
+    },
+    {
+      "name": "disbursement",
+      "tags": [
+        "Python",
+        "PHP",
+        "C++"
+      ],
+      "salary": 332,
+      "description": "wf",
+      "city": [
+        "Cần Thơ"
+      ],
+      "status": true,
+      "idCompany": 4,
+      "createAt": "19-06-2024 15:09:54",
+      "id": 10
+    },
+    {
+      "name": "việc làm 1",
+      "tags": [
+        "Javascript",
+        "Java",
+        "C#",
+        "PHP"
+      ],
+      "salary": 4000,
+      "description": "Việc làm It lương cao",
+      "city": [
+        "TP. Hồ Chí Minh",
+        "Hà Nội"
+      ],
+      "status": false,
+      "idCompany": 4,
+      "createAt": "19-06-2024 18:02:14",
+      "id": 11
+    },
+    {
+      "name": "vicinity",
+      "tags": [
+        "Java",
+        "Python"
+      ],
+      "salary": 10000,
+      "description": "fsdfsdaf",
+      "city": [
+        "Đà Nẵng"
+      ],
+      "status": true,
+      "idCompany": 5,
+      "createAt": "19-06-2024 18:25:32",
+      "id": 12
+    }
+  ],
+  "cvs": [
+    {
+      "id": 1,
+      "idCompany": 1,
+      "idJob": 1,
+      "name": "Nguyễn Văn A",
+      "phone": "0987654321",
+      "email": "nguyenvana@example.com",
+      "description": "Tôi là một lập trình viên frontend với 5 năm kinh nghiệm làm việc với React và Javascript.",
+      "linkProject": "https://github.com/nguyenvana/portfolio",
+      "city": "Hà Nội",
+      "statusRead": false,
+      "createAt": "29-04-2023 21:22:17",
+      "job": "Frontend Developer"
+    },
+    {
+      "id": 2,
+      "idCompany": 2,
+      "idJob": 2,
+      "name": "Trần Thị B",
+      "phone": "0912345678",
+      "email": "tranthib@example.com",
+      "description": "Backend developer với 3 năm kinh nghiệm làm việc với Java và Spring Boot.",
+      "linkProject": "https://github.com/tranthib/backend-projects",
+      "city": "Đà Nẵng",
+      "statusRead": false,
+      "createAt": "30-04-2023 10:15:00",
+      "job": "Backend Developer"
+    },
+    {
+      "id": 3,
+      "idCompany": 3,
+      "idJob": 3,
+      "name": "Lê Văn C",
+      "phone": "0934567890",
+      "email": "levanc@example.com",
+      "description": "Full stack developer với kỹ năng về Python, Django và React, có kinh nghiệm làm việc trong các dự án quốc tế.",
+      "linkProject": "https://github.com/levanc/fullstack-projects",
+      "city": "Cần Thơ",
+      "statusRead": false,
+      "createAt": "01-05-2023 08:00:00",
+      "job": "Full Stack Developer"
+    },
+    {
+      "id": 4,
+      "idCompany": 1,
+      "idJob": 4,
+      "name": "Phạm Thị D",
+      "phone": "0945678901",
+      "email": "phamthid@example.com",
+      "description": "Mobile developer với 4 năm kinh nghiệm phát triển ứng dụng iOS và Android bằng Swift và Kotlin.",
+      "linkProject": "https://github.com/phamthid/mobile-projects",
+      "city": "TP. Hồ Chí Minh",
+      "statusRead": false,
+      "createAt": "27-04-2023 15:45:30",
+      "job": "Mobile Developer"
+    },
+    {
+      "name": "ĐOÀN THANH LÂM",
+      "phone": 395544696,
+      "email": "lamdoan.31221026007@st.ueh.edu.vn",
+      "detail": "đoàn thanh lâm",
+      "linkProject": "thanhlamcide",
+      "city": "TP. Hồ Chí Minh",
+      "idCompany": 4,
+      "idJob": 6,
+      "statusRead": false,
+      "createAt": "19-06-2024 13:59:24",
+      "id": 6,
+      "job": "test1"
+    },
+    {
+      "name": "ĐOÀN THANH LÂM",
+      "phone": 395544696,
+      "email": "lamdoan.31221026007@st.ueh.edu.vn",
+      "detail": "qưdqwdf",
+      "linkProject": "thanhlamcide",
+      "city": "TP. Hồ Chí Minh",
+      "idCompany": 4,
+      "idJob": 2,
+      "statusRead": true,
+      "createAt": "19-06-2024 16:12:52",
+      "id": 7,
+      "job": "Backend Developer"
+    },
+    {
+      "name": "Phụ minh tám",
+      "phone": 1231923812,
+      "email": "tupham123@gmail.com",
+      "detail": "Tú supersaiyan",
+      "linkProject": "tupham.github.com",
+      "city": "TP. Hồ Chí Minh",
+      "idCompany": 4,
+      "idJob": 2,
+      "statusRead": true,
+      "createAt": "19-06-2024 16:59:15",
+      "id": 8,
+      "job": "Backend Developer"
+    },
+    {
+      "name": "Noname",
+      "phone": 395544696,
+      "email": "lamdoan.31221026007@st.ueh.edu.vn",
+      "detail": "njdaksndjkasd",
+      "linkProject": "thanhlamcode.github.com",
+      "city": "TP. Hồ Chí Minh",
+      "idCompany": 4,
+      "idJob": 1,
+      "statusRead": true,
+      "createAt": "19-06-2024 16:59:41",
+      "id": 9,
+      "job": "Frontend Developer"
+    },
+    {
+      "name": "UEH",
+      "phone": 395544696,
+      "email": "lamdoan.31221026007@st.ueh.edu.vn",
+      "detail": "học sinh ueh",
+      "linkProject": "ueh.github.com",
+      "city": "TP. Hồ Chí Minh",
+      "idCompany": 4,
+      "idJob": 6,
+      "statusRead": true,
+      "createAt": "19-06-2024 18:03:38",
+      "id": 10,
+      "job": "test1"
+    },
+    {
+      "name": "ĐOÀN THANH LÂM",
+      "phone": 395544696,
+      "email": "lamdoan.31221026007@st.ueh.edu.vn",
+      "detail": "w",
+      "linkProject": "èwef",
+      "city": "TP. Hồ Chí Minh",
+      "idCompany": 5,
+      "idJob": 12,
+      "statusRead": true,
+      "createAt": "19-06-2024 18:25:47",
+      "id": 12,
+      "job": "vicinity"
+    },
+    {
+      "name": "ĐOÀN THANH LÂM",
+      "phone": 395544696,
+      "email": "lamdoan.31221026007@st.ueh.edu.vn",
+      "detail": "Lập trình viên reactjs chuyên nghiệp",
+      "linkProject": "it-crream.github.com",
+      "city": "TP. Hồ Chí Minh",
+      "idCompany": 4,
+      "idJob": 1,
+      "statusRead": true,
+      "createAt": "23-06-2024 14:35:56",
+      "id": 13,
+      "job": "Frontend Developer"
+    }
+  ]
 }
